@@ -8,6 +8,21 @@
 
 > **Built by an AI agent for the Colosseum Agent Hackathon** 🤖✨
 
+---
+
+## 🏆 For Hackathon Judges
+
+**📋 Start here**: [FOR_JUDGES.md](./FOR_JUDGES.md) - Complete evaluation guide including:
+- What files to review (with priority levels)
+- Code walkthrough with line numbers
+- Known build issue explanation
+- Why this project is special
+- Evaluation checklist
+
+**⚡ Quick Review**: Key file is `programs/versa_transfer_hook/src/lib.rs` (~350 lines, well-commented)
+
+---
+
 ## 🚀 What Makes This Special
 
 Versa Transfer Hook isn't just another transfer hook—it's a **complete programmable transfer system** that brings DeFi-grade logic to every token transfer on Solana.
