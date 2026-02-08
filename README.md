@@ -208,9 +208,31 @@ anchor-cli 0.30+
 
 # Node.js
 node 18+
+
+# Python (for testing without build)
+python 3.8+
 ```
 
-### Build
+### Quick Test (No Build Required!) ⭐
+
+Test all the hook logic locally without building or deploying:
+
+```bash
+# Setup Python environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+# Run local simulator (tests all features!)
+./venv/bin/python scripts/test_hook_locally.py
+
+# See fee calculations
+./venv/bin/python scripts/python_demo.py
+```
+
+See [PYTHON_SCRIPTS.md](./PYTHON_SCRIPTS.md) for complete Python testing guide.
+
+### Build (When Toolchain Issues Resolved)
 
 ```bash
 # Clone repository
